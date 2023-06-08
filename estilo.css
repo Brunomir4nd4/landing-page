@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(232, 180, 180);
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(68.15deg, #1a1112 16.62%, #913d2b 85.61%);
+    height: 100%;
+}
+.conteiner-cabeçalho{
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ------------------------- */
+
+.cabeçalho-nav-menu{
+    font-weight: 400;
+    color:rgb(232, 180, 180);
+}
+
+.cabeçalho-nav{
+    display: flex;
+    gap: 32px;
+}
+/* ------------------------- */
+
+.conteiner-conteudo{
+    border-top: 0.5px solid rgb(232, 180, 180) ;
+}
+
+.conteudo-boasVindas{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 35px;
+}
+
+.conteudo-cadastro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.conteudo-cadastro h3{
+    font-size: 1.3em;
+}
+.conteudo-cadastro li{
+    padding: 30px;
+    font-size: 20px;
+}
+.conteudo-botao{
+    padding: 15px 30px;
+    margin: 100px auto;
+    background-color: #811f16;
+    border: 2px solid #de4343;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.conteudo-botao:hover{
+    background-color: #db8585;
+    border: 2px solid #e79c9c;
+}
+/* ------------------------- */
+
+.conteiner-rodape{
+    border: 2px solid black;
+
+}
